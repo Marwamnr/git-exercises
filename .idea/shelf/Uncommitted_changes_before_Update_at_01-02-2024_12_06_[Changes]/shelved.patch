@@ -1,0 +1,38 @@
+Index: git-exercises/git-exercises/src/main/Main.java
+===================================================================
+diff --git a/git-exercises/git-exercises/src/main/Main.java b/git-exercises/git-exercises/src/main/Main.java
+deleted file mode 100644
+--- a/git-exercises/git-exercises/src/main/Main.java	(revision 34de115f6b851da709e3045baa931256bc86bc21)
++++ /dev/null	(revision 34de115f6b851da709e3045baa931256bc86bc21)
+@@ -1,31 +0,0 @@
+-public class Main
+-{
+-    public static void main(String[] args)
+-    {
+-        int numbers = 100;
+-
+-        int dividedBy3 = 3;
+-
+-        int dividedBy5 = 5;
+-
+-        for (int i = 0; i <= numbers; i++)
+-        {
+-            if (i % dividedBy3 == 0 && i % dividedBy5 == 0)
+-            {
+-                System.out.println("FizzBuzz");
+-            }
+-               else if (i % dividedBy3 == 0)
+-                {
+-                    System.out.println("Fizz");
+-                }
+-                else if (i % dividedBy5 == 0)
+-                {
+-                    System.out.println("Buzz");
+-                }
+-                else
+-                {
+-                    System.out.println(i);
+-                }
+-            }
+-        }
+-    }
